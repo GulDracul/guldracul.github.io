@@ -2,42 +2,67 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
-header {
-    background-color: #333;
+.header {
+    background-color: hsl(3, 84%, 33%);
     color: #fff;
     text-align: center;
     padding: 50px 0;
 }
 
-header h1 {
+.header-title {
     font-size: 2em;
     margin: 0;
 }
 
-header p {
+.header-subtitle {
     font-size: 1.2em;
     margin: 0;
 }
 
-section {
+.section {
     padding: 30px;
 }
 
-.about, .projects, .contact {
-    margin-bottom: 30px;
-    border-bottom: 1px solid #ccc;
+.section-title {
+    color: hsl(3, 84%, 33%);
 }
 
-.project {
+.section-text {
+    margin-bottom: 20px;
+}
+
+.projects, .contact {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.project-title {
+    color: hsl(3, 84%, 33%);
+    margin: 0;
+}
+
+.project-description {
+    margin: 0;
     margin-bottom: 15px;
 }
 
-.project h3 {
-    margin: 0;
+.project-link {
+    color: hsl(3, 84%, 33%);
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.project p {
-    margin: 0;
+.contact-link {
+    color: hsl(3, 84%, 33%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project, .contact {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
 }
